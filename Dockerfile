@@ -21,4 +21,4 @@ RUN apk update && \
     touch /var/log/cron.log && \
     rm -rf /var/cache/apk/*
 
-CMD ["python", "-m", "src"]
+CMD ["python3", "-m", "src"]
