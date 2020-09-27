@@ -12,7 +12,7 @@ For running required phone number for bypassing telegram bot api upload files li
 
 Set the following enviroment variables:
   1. Bot token(from Bot Father):
-`951673250:AAH5FYdE7SEEWXMlkCYG4vI-TuPZAIYDBPU`
+`BOT_API_TOKEN`
   2. IBM Cloudant credentials: 
   `CLOUDANT_USERNAME`, `CLOUDANT_PASSWORD`, `CLOUDANT_URL`
   (can be easily replaced with CouchDB: read https://python-cloudant.readthedocs.io/en/latest/getting_started.html)
