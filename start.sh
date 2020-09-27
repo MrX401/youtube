@@ -3,6 +3,6 @@
 export PATH=${PATH}:/usr/local/bin:/usr/sbin
 
 pip3 install youtube-dl
-crond
+
 # to wait until old connection will be reseted 
-exec bash kid.sh
+exec python3 src/main.py
